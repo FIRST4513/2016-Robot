@@ -1,0 +1,60 @@
+<xml version="1.0">
+<dashboard>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="37" y="714"/>
+		<width>356</width>
+	</static-widget>
+	<widget field="LedOffCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="856" y="788"/>
+	</widget>
+	<widget field="AutoDBottomLeft" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="38" y="177"/>
+	</widget>
+	<widget field="AutoBTopLeft" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="61" y="89"/>
+	</widget>
+	<widget field="AutoATopRight" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="50" y="45"/>
+	</widget>
+	<widget field="LedOnCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="863" y="747"/>
+	</widget>
+	<widget field="PanTiltCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1259" y="766"/>
+	</widget>
+	<widget field="AutoCBottomRight" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="26" y="131"/>
+	</widget>
+	<widget field="LaserOnCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="576" y="740"/>
+	</widget>
+	<widget field="LaserOffCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="578" y="795"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="377" y="24"/>
+		<property name="Text" value="Connection Status"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="315" y="17"/>
+		<width>276</width>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.VideoStreamViewerExtension">
+		<location x="1183" y="68"/>
+		<width>808</width>
+		<height>627</height>
+		<property name="Camera IP Address or mDNS name" value="127.0.0.1"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.VideoStreamViewerExtension">
+		<location x="349" y="78"/>
+		<width>812</width>
+		<height>611</height>
+		<property name="Camera IP Address or mDNS name" value="10.45.13.11"/>
+	</static-widget>
+	<widget field="Autonomous Command" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="-1" y="4"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>

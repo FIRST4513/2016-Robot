@@ -1,0 +1,74 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 400px;
+
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+                    <h2>DIO</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Sensor</th></tr>
+	                                               <tr><td>0</td><td>DrivetrainSys LftEncoder</td><td></td></tr>
+            	                                         <tr><td>1</td><td>DrivetrainSys LftEncoder</td><td></td></tr>
+            	                                         <tr><td>2</td><td>DrivetrainSys RtEncoder</td><td></td></tr>
+            	                                         <tr><td>3</td><td>DrivetrainSys RtEncoder</td><td></td></tr>
+            	                                         <tr><td>4</td><td>LiftSys LiftEncoder</td><td></td></tr>
+            	                                         <tr><td>5</td><td>LiftSys LiftEncoder</td><td></td></tr>
+            	                                         <tr><td>6</td><td>LiftSys LiftUpLmtSw</td><td></td></tr>
+            	                                         <tr><td>7</td><td>LiftSys LiftLoLmtSw</td><td></td></tr>
+            	                                         <tr><td>8</td><td>ShooterSys ShooterContactSw</td><td></td></tr>
+            	                                         <tr><td>9</td><td>CaptureSys CaptureOpenLmtSw</td><td></td></tr>
+            	                                         <tr><td>10</td><td>CaptureSys CaptureClosedLmtSw</td><td></td></tr>
+            	                                                                                                                                                                                         	    </table>
+                    <h2>PWMs</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Motor</th>
+                <th>Type</th></tr>
+	                                               <tr><td>0</td><td>DrivetrainSys LftMtr</td><td>Talon</td></tr>
+            	                                         <tr><td>1</td><td>DrivetrainSys RtMtr</td><td>Talon</td></tr>
+            	                                         <tr><td>2</td><td>LiftSys LiftMtr</td><td>Talon</td></tr>
+            	                                         <tr><td>3</td><td>ShooterSys ShooterFrontMtr</td><td>Talon</td></tr>
+            	                                         <tr><td>4</td><td>ShooterSys ShooterRearMtr</td><td>Talon</td></tr>
+            	                                         <tr><td>5</td><td>LiftSys LiftServo</td><td></td></tr>
+            	                                         <tr><td>6</td><td>LiftSys LiftPanServo</td><td></td></tr>
+            	                                         <tr><td>7</td><td>CaptureSys CaptureMtr</td><td>Talon</td></tr>
+            	                                                                                                                                                                                                                             	    </table>
+     
+        
+                    <h2>Relays</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Relay</th></tr>
+	                                               <tr><td>0</td><td>VisionSys VisionLEDSpike</td><td></td></tr>
+            	                                         <tr><td>1</td><td>VisionSys VisionLaserSpike</td><td></td></tr>
+            	                                                                                                                                                                                                                                                                                                     	    </table>
+    
+                    <h2>Analog Inputs</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Sensor</th></tr>
+	                                               <tr><td>0</td><td>DrivetrainSys GyroA</td><td></td></tr>
+            	                                                                                                                                                                                                                                                                                                                 	    </table>
+    
+                                                                                                                                                                                                                                                            
+          </body>
+</html>
